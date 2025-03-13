@@ -1,0 +1,32 @@
+###array 123456 o/p 123654
+# num =[int(i) for i in  input("enter num: ").split()]
+# # print(num)
+# num.sort()
+# length_a = len(num)//2
+# increment_element = num[:length_a]
+# print(increment_element)
+# decrement_element = num[length_a:][::-1]
+# print(decrement_element)
+# for i in decrement_element:
+#     increment_element.append(i)
+# print(* increment_element)
+
+
+##-----find the given index of  array in sorted way i/p(20 15 26 2 98 6) o/p(4 3 5 1 6 2)
+num =[int(i) for i in input("enter number: ").split()]  #20 15 26 2 98 6
+temp = []
+for i in num:
+  if i not in temp:
+    temp.append(i)
+temp.sort() #sorted element
+res = ""
+for i in num:
+  for j in range(0, len(temp)):
+    if i == temp[j]:
+      res += str(j+1)+ " "
+      break
+
+print(res)
+
+
+

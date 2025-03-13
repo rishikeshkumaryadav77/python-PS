@@ -1,0 +1,14 @@
+#########print sum of number input(123) ouput(6)
+num = input("enter num: ")
+
+def sumOfDigit(n):
+    sum = 0
+    for i in n:
+        sum += int(i)
+    if sum > 10:
+        return sumOfDigit(str(sum))
+    return sum
+
+res = sumOfDigit(num)
+print(res)
+    
