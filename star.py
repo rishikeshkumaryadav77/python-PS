@@ -37,12 +37,23 @@
 
 
 
-try:
-    num = int(input("Enter a number: "))
-    result = 100 / num
-except ZeroDivisionError:
-    print("Cannot divide by zero!")
-except ValueError:
-    print("Invalid input! Please enter a number.")
-else:
-    print(f"Result: {result}")  # Only runs if no exceptions occur
+# try:
+#     num = int(input("Enter a number: "))
+#     result = 100 / num
+# except ZeroDivisionError:
+#     print("Cannot divide by zero!")
+# except ValueError:
+#     print("Invalid input! Please enter a number.")
+# else:
+#     print(f"Result: {result}")  # Only runs if no exceptions occur
+
+
+##star trinage
+n = int(input("enter number"))
+for row in range(1, n+1):
+    for col in range(1,n*2):
+        if row==n or row + col ==n+1 or col- row ==n-1:
+            print("*", end="")
+        else:
+            print(end=" ")
+    print()
