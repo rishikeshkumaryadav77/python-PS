@@ -89,9 +89,24 @@ num_list = [1, 2, 2, 3]
 # set_num= list(set(num_list))
 # print(set_num)
 
-temp = []
+# temp = []
 
-for i in num_list:
-  if i not in temp:
-    temp.append(i)
-print(temp)
+# for i in num_list:
+#   if i not in temp:
+#     temp.append(i)
+# print(temp)
+
+
+# 9. Factorial
+# Problem:
+# Calculate the factorial of a number.
+# Example:
+# Input: 5 → Output: 120
+# Concept: Loop or recursion.
+
+
+num = 5
+fact_num = 1
+for i in range(1, num + 1):
+   fact_num*= i
+print(fact_num)
