@@ -62,10 +62,16 @@
 # Input: [1, 5, 2, 9] → Output: 9
 # Concept: Loop or use Python's max().
 
-list_num = [1, 5, 2, 9]
-temp = list_num[0]
+# list_num = [1, 5, 2, 9]
+# temp = list_num[0]
+# # print(temp)
+# for i in list_num:
+#   if i > temp:
+#     temp = i
 # print(temp)
-for i in list_num:
-  if i > temp:
-    temp = i
-print(temp)
+
+
+7. Even or Odd
+Problem:
+Check if a number is even or odd.
+Concept: Use modulo (% 2).
