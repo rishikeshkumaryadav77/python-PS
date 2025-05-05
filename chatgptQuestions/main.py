@@ -47,13 +47,13 @@
 # Input: "hello world" → Output: 3
 # Concept: Loops and membership check (in).
 
-str = "hello world"
-vowels = "aeiou"
-count = 0
-for i in str:
-  if i in vowels:
-    count += 1
-print(count)
+# str = "hello world"
+# vowels = "aeiou"
+# count = 0
+# for i in str:
+#   if i in vowels:
+#     count += 1
+# print(count)
 
 # 6. Find Maximum in List
 # Problem:
@@ -64,4 +64,8 @@ print(count)
 
 list_num = [1, 5, 2, 9]
 temp = list_num[0]
+# print(temp)
+for i in list_num:
+  if i > temp:
+    temp = i
 print(temp)
