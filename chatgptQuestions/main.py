@@ -105,8 +105,22 @@ num_list = [1, 2, 2, 3]
 # Concept: Loop or recursion.
 
 
+# num = 5
+# fact_num = 1
+# for i in range(1, num + 1):
+#    fact_num*= i
+# print(fact_num)
+
+# by using functions
+
+def factorial(n):
+  if n <=1:
+    return 1
+  return n * factorial(n - 1)
+
 num = 5
-fact_num = 1
-for i in range(1, num + 1):
-   fact_num*= i
-print(fact_num)
+result = factorial(num)
+print(result)
+
+
+
