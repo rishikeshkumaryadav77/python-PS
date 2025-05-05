@@ -40,5 +40,17 @@
 #   sum_num += int(i)
 # print((sum_num))
 
+# 5. Count Vowels in a String
+# Problem:
+# Count how many vowels are in a string.
+# Example:
+# Input: "hello world" → Output: 3
+# Concept: Loops and membership check (in).
 
-
+str = "hello world"
+vowels = "aeiou"
+count = 0
+for i in str:
+  if i in vowels:
+    count += 1
+print(count)
