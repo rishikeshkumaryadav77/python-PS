@@ -54,3 +54,14 @@ for i in str:
   if i in vowels:
     count += 1
 print(count)
+
+# 6. Find Maximum in List
+# Problem:
+# Find the largest number in a list.
+# Example:
+# Input: [1, 5, 2, 9] → Output: 9
+# Concept: Loop or use Python's max().
+
+list_num = [1, 5, 2, 9]
+temp = list_num[0]
+print(temp)
