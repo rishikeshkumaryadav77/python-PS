@@ -84,4 +84,14 @@
 # Concept: Use set() or loop.
 
 num_list = [1, 2, 2, 3]
-print(set(num_list))
+
+# print(set(num_list))
+# set_num= list(set(num_list))
+# print(set_num)
+
+temp = []
+
+for i in num_list:
+  if i not in temp:
+    temp.append(i)
+print(temp)
