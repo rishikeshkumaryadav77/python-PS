@@ -71,7 +71,17 @@
 # print(temp)
 
 
-7. Even or Odd
-Problem:
-Check if a number is even or odd.
-Concept: Use modulo (% 2).
+# 7. Even or Odd
+# Problem:
+# Check if a number is even or odd.
+# Concept: Use modulo (% 2).
+
+# 8. Remove Duplicates from List
+# Problem:
+# Remove duplicates from a list and return the new list.
+# Example:
+# Input: [1, 2, 2, 3] → Output: [1, 2, 3]
+# Concept: Use set() or loop.
+
+num_list = [1, 2, 2, 3]
+print(set(num_list))
