@@ -139,5 +139,5 @@ print(result)
 # Output: []
 # Explanation: "z" does not occur in any of the words. Hence, we return an empty array.
 
-a 012
+a
 
