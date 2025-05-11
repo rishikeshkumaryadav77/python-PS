@@ -139,9 +139,9 @@ print(result)
 # Output: []
 # Explanation: "z" does not occur in any of the words. Hence, we return an empty array.
 
-a = ["leet", 'code', "rishi"]
+a = ["abc","bcd","aaaa","cbc"]
 index_x = []
-x = 'e'
+x = 'z'
 for i in a:
   if x in i:
     index_x.append(a.index(i))
