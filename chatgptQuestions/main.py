@@ -141,7 +141,7 @@ print(result)
 
 a = ["abc","bcd","aaaa","cbc"]
 index_x = []
-x = 'z'
+x = 'y'
 for i in a:
   if x in i:
     index_x.append(a.index(i))
