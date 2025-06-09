@@ -19,11 +19,23 @@
 # print(words)
 
 ##  i/p[1,2,3,4,5,6] o/p[0,1,2,'Hi',"Bye", "Dom", 6]
-arr = [1, 2, 3, 4, 5, 6]
-arr.insert(0, 0)            # Insert 0 at the beginning
-arr[3] = "Hi"               # Replace 3 with "Hi"
-arr[4] = "Bye"              # Replace 4 with "Bye"
-arr[5] = "Dom"              # Replace 5 with "Dom"
+# arr = [1, 2, 3, 4, 5, 6]
+# arr.insert(0, 0)            # Insert 0 at the beginning
+# arr[3] = "Hi"               # Replace 3 with "Hi"
+# arr[4] = "Bye"              # Replace 4 with "Bye"
+# arr[5] = "Dom"              # Replace 5 with "Dom"
 
-print(arr)
+# print(arr)
 
+##second largest number i/p [1,13,4,5,5,9] o/p [5,5]
+
+# num = [1, 3, 4, 5, 5, 9]
+# num.sort(reverse=True)
+# num.pop(0)
+# secondLargest_num = [num[0]]
+# for i in num:
+#   if i in secondLargest_num:
+#     secondLargest_num.append(i)
+# # print(arr)
+# secondLargest_num.pop()
+# print(secondLargest_num)
