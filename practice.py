@@ -27,7 +27,7 @@
 
 # print(arr)
 
-##second largest number i/p [1,13,4,5,5,9] o/p [5,5]
+##second largest number with method i/p [1,13,4,5,5,9] o/p [5,5]
 
 # num = [1, 3, 4, 5, 5, 9]
 # num.sort(reverse=True)
@@ -39,3 +39,37 @@
 # # print(arr)
 # secondLargest_num.pop()
 # print(secondLargest_num)
+
+
+##with methods  i/p [1,13,4,5,5,9] o/p [5,5]
+# num = [1, 3, 4, 5, 5, 9]
+# larNum= num[0]
+# max= []
+# min=[]
+# for i in num:
+#   if i >= larNum:
+#     max.append(i)
+#   else:
+#     min.append(i)
+# print(min)
+
+# num2=num[::-1]
+# num2.pop(0)
+# print(num2)
+
+##without method  i/p [1,13,4,5,5,9] o/p [5,5]
+
+## i/n [ 2, 9,8,4,3] o/p [8]
+
+num = [2, 9,8,4,3, 1, 10]
+
+
+for i in range(0,len(num)):
+  for j in range(i,len(num)):
+    if num[i] > num[j]:
+      temp = num[i]
+      num[i] = num[j]
+      num[j] = temp
+    # elif num[i]:
+      # temp = num[i]
+print(num[-2])  # Output: 8
