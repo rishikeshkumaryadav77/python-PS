@@ -245,8 +245,26 @@
 # 4 4 4 4
 # 5 5 5 5 5
 
+
+# -----------------------------------
+# a = 5
+# for i in range(a):             #01234
+#   for j in range(0,i+1):
+#     print(a-i, end=' ')
+#   print()
+
+# -------------------o/p
+# 5 
+# 4 4
+# 3 3 3
+# 2 2 2 2
+# 1 1 1 1 1
+
+
+# ----------------------------------------
+
 a = 5
-for i in range(1,a+1):
-  for j in range(1,i+1):
-    print(i, end=' ')
+for i in range(a):             
+  for j in range(0,i+1, -1):
+    print(a-j, end=' ')
   print()
