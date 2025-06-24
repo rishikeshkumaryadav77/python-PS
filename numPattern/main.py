@@ -265,6 +265,6 @@
 
 a = 5
 for i in range(a):             
-  for j in range(0,i+1, -1):
-    print(a-j, end=' ')
+  for j in range(0,i+1):
+    print(a+j-i, end=' ')
   print()
