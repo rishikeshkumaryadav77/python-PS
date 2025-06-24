@@ -217,15 +217,36 @@
 # 5 6 7 8 9
 
 # ------------------------------------
-n = 5
-for i in range(1, n+1):
-  for j in range(0, i):
-    print(i-j,end=" ")
-  print()
+# n = 5
+# for i in range(1, n+1):
+#   for j in range(0, i):
+#     print(i-j,end=" ")
+#   print()
   #-----------------o/p
 # 1 
 # 2 1
 # 3 2 1
 # 4 3 2 1
 # 5 4 3 2 1
+
+
+
+# ----------------------------------
+# a = 5
+# for i in range(1,a+1):
+#   for j in range(1,i+1):
+#     print(i, end=' ')
+#   print()
   
+# -----o/p
+# 1 
+# 2 2
+# 3 3 3
+# 4 4 4 4
+# 5 5 5 5 5
+
+a = 5
+for i in range(1,a+1):
+  for j in range(1,i+1):
+    print(i, end=' ')
+  print()
