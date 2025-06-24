@@ -263,8 +263,26 @@
 
 # ----------------------------------------
 
+# a = 5
+# for i in range(a):             
+#   for j in range(0,i+1):
+#     print(a+j-i, end=' ')
+#   print()
+
+  # -----------------o/p
+# 5 
+# 4 5
+# 3 4 5
+# 2 3 4 5
+# 1 2 3 4 5
+
+# ---------------or
 a = 5
 for i in range(a):             
-  for j in range(0,i+1):
-    print(a+j-i, end=' ')
+  for s in range(a-i-1):     #includes space
+    print(' ', end=' ')
+  for j in range(i, -1, -1):
+    print(a-j, end=' ')
   print()
+
+  
