@@ -9,7 +9,7 @@
 
 # or
 
-num = 5873
+# num = 5873
 # str_num = str(num)
 # len_num = len(str_num)
 # # print(len_num)
@@ -21,8 +21,16 @@ num = 5873
 
 # or
 
-reverse_str= str(num)[::-1]
-for i in reverse_str: 
-    print(int(i))  
+# reverse_str= str(num)[::-1]
+# for i in reverse_str: 
+#     print(int(i))  
+
+#   with % or // operator
+n = 5873
+num_n = n
+while num_n > 0:
+  last_digit = num_n % 10
+  print(last_digit)
+  num_n = num_n //10
 
 
