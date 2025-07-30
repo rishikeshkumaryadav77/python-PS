@@ -32,6 +32,6 @@ for _ in range(0, rotations):
 print(num)
 
 # or with slicing
-# end_num = num[num_len-rotations:]
-# start_num = num[0:num_len-rotations]
+# end_num = num[num_len - rotations:]
+# start_num = num[0:num_len -rotations]
 # print( end_num+start_num)

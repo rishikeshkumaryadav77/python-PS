@@ -78,10 +78,11 @@ print("i love you".capitalize())
 #     print(res)
 
 
-###prime vs non prime
+###prime vs non prime   https://www.programiz.com/online-compiler/8eYvaGETW8H53
 a = "43125"
 non_prime =[]
 prime= []
+sum_prime = 0
 for i in a:
     if int(i)>1:
         is_prime = True
@@ -91,10 +92,11 @@ for i in a:
                 break
         if  is_prime:
             prime.append(i)
+            sum_prime +=int(i)
         else:
             non_prime.append(i)
     else:
         non_prime.append(i)
-print("prime", prime)
+print("prime", prime, "sum of prime", sum_prime)
 print("non-prime", non_prime)
                 

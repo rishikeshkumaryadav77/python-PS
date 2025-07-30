@@ -61,15 +61,36 @@
 
 ## i/n [ 2, 9,8,4,3] o/p [8]
 
-num = [2, 9,8,4,3, 1, 10]
+# num = [2, 9,8,4,3, 1, 10]
+# for i in range(0,len(num)):
+#   for j in range(i,len(num)):
+#     if num[i] > num[j]:
+#       temp = num[i]
+#       num[i] = num[j]
+#       num[j] = temp
+#     # elif num[i]:
+#       # temp = num[i]
+# print(num[-2])  # Output: 8
 
 
-for i in range(0,len(num)):
-  for j in range(i,len(num)):
-    if num[i] > num[j]:
-      temp = num[i]
-      num[i] = num[j]
-      num[j] = temp
-    # elif num[i]:
-      # temp = num[i]
-print(num[-2])  # Output: 8
+# num = [2, 9,8,4,3, 1, 10]
+# sort_num = []
+# for i in range(0,len(num)):
+#   for j in range(0,len(num)):
+#     if num[i] >= num[j]:
+#       sort_num.append(num[i])
+# print(sort_num)
+
+# a = [ 2,3,4,6,8,10,15,14]
+# for i in range(0,len(a)):
+#   for j in range(0, len(a)-1):
+#     if a[j] >a[j+1]:
+#       a[j], a[j+1] = a[j+1], a[j]
+# print(a)
+
+
+a=5
+for i in range(1,a+1):
+  for j in range(i, i+1):
+    print((" "* (a-i))+"* " * j, end="") 
+  print()

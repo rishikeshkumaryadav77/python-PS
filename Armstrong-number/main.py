@@ -1,4 +1,4 @@
-##armstrong number
+##armstrong number           https://www.programiz.com/online-compiler/3oVS6uoy5Eie3
 # a = "153"
 # num = 0
 # for i in a:
