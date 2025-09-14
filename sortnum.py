@@ -32,7 +32,7 @@
 num = 2345
 sort_n = ''
 while num > 0:
-  last_digit = num % 10
-  num = num // 10
+  last_digit = num % 100
+  num = num // 100
   sort_n += str(last_digit)
   print(int(sort_n))
