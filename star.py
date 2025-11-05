@@ -57,5 +57,4 @@
 #         else:
 #             print(end=" ")
 #     print()
-import sys
-print(sys.version)
+print("hii"); print("hello"); print("same here")
