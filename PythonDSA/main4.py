@@ -38,13 +38,13 @@
 # *****
 
 # ###############
-n = 6
-for i in range(n):
-  for j in range(i):
-    print(" ", end=" ")
-  for k in range(1,n):
-    print("*", end = "")
-  print()
+# n = 6
+# for i in range(n):
+#   for j in range(i):
+#     print(" ", end=" ")
+#   for k in range(1,n):
+#     print("*", end = "")
+#   print()
 #o/p
 # *****
 #   *****
@@ -52,3 +52,15 @@ for i in range(n):
 #       *****
 #         *****
 #           *****
+
+# ###############
+n = 5
+for i in range(n):
+  for j in range(n-i-1):
+    print(" ", end=" ")
+  temp = i*2+1
+  for k in range(temp):
+    print("*", end = " ")
+  print()
+
+  #o/p
