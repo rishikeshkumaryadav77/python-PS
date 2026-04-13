@@ -34,4 +34,4 @@ class Solution:
                     result.append(matrix[i][left])
                 left += 1                     # left column is done
 
-        return resul
+        return result
